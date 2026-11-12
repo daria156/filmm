@@ -83,3 +83,44 @@ button {
 button:hover {
     background: #f47ab4;
 }
+
+#movieList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 45px;
+}
+ 
+#movieList li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    background: #302431;
+    border: 1px solid #493044;
+    border-radius: 12px;
+}
+ 
+#movieList img {
+    width: 85px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+ 
+#movieList span {
+    flex: 1;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffe0ef;
+}
+ 
+#movieList button {
+    background: #a83d70;
+    padding: 11px 18px;
+}
+ 
+#movieList button:hover {
+    background: #d94d91;
+}
