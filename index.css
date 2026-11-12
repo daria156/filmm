@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background: #17131a;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 50px 20px;
+}
+ 
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 35px;
+    background: #241b27;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(236, 72, 153, 0.12);
+}
+ 
+h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #ff8ac5;
+    margin-bottom: 35px;
+}
