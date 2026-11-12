@@ -35,3 +35,20 @@ function renderMovies() {
     movieList.append(item);
   });
 }
+addMovie.addEventListener("click", function () {
+  const newMovieTitle = movieName.value.trim();
+  const newMoviePoster = moviePoster.value.trim();
+
+  if (newMovieTitle === "" || newMoviePoster === "") {
+    return;
+  }
+
+  movieTitles.push(newMovieTitle);
+  moviePosters.push(newMoviePoster);
+
+  movieName.value = "";
+  moviePoster.value = "";
+
+  renderMovies();
+});
+renderMovies();
