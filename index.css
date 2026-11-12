@@ -27,3 +27,59 @@ h1 {
     color: #ff8ac5;
     margin-bottom: 35px;
 }
+
+.form {
+    display: flex;
+    align-items: flex-end;
+    gap: 25px;
+    margin-bottom: 45px;
+ 
+}
+ 
+.input-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 8px;
+}
+ 
+label {
+    font-size: 14px;
+    color: #e9b5d1;
+}
+ 
+input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #513449;
+    border-radius: 10px;
+    background: #302431;
+    color: white;
+    font-size: 14px;
+    outline: none;
+}
+ 
+input:focus {
+    border-color: #f472b6;
+}
+ 
+input::placeholder {
+    color: #927b8d;
+}
+ 
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 13px 20px;
+    background: #e85d9e;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 20px;
+}
+ 
+button:hover {
+    background: #f47ab4;
+}
