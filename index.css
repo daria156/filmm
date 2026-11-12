@@ -124,3 +124,31 @@ button:hover {
 #movieList button:hover {
     background: #d94d91;
 }
+
+@media (max-width: 650px) {
+    .container {
+        padding: 20px;
+    }
+ 
+    .form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+ 
+    #movieList li {
+        gap: 12px;
+    }
+ 
+    #movieList img {
+        width: 65px;
+        height: 90px;
+    }
+ 
+    #movieList span {
+        font-size: 15px;
+    }
+ 
+    #movieList button {
+        padding: 9px 12px;
+    }
+}
